@@ -1,9 +1,9 @@
-# soilio-landing
+# mama-original2-landing
 
-This is the "coming soon" landing page for [soil.io](http://soil.io).
+This is the "coming soon" landing page for
+[mamaoriginals.com](http://mamaoriginals.com).
 
-A short post on this repository may be
-[read here](http://blog.crushingpennies.com/creating-a-landing-page-with-npm-scripts.html).
+Based on [soilio-landing](http://github.com/danielnaab/soilio-landing).
 
 ## Install
 

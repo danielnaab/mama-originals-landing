@@ -19,7 +19,7 @@
     "build:js": "browserify src/main.js | uglifyjs -cm > dist/bundle.js",
     "build:sass": "node-sass --include-path scss src/styles/styles.scss | uglifycss > dist/styles.css",
     "clean": "rm -rf dist && mkdir dist",
-    "deploy": "npm run build && npm run deploy:gzip && aws --profile=crushingpennies s3 sync --content-encoding=gzip dist s3://www.soil.io",
+    "deploy": "npm run build && npm run deploy:gzip && aws --profile=crushingpennies s3 sync --content-encoding=gzip dist s3://www.mamaoriginals.com",
     "deploy:gzip": "find dist/ -type f -exec gzip \"{}\" \\; -exec mv \"{}.gz\" \"{}\" \\;",
     "serve": "ecstatic -p 9000 dist",
     "watch": "npm run clean && parallelshell 'npm run watch:js' 'npm run watch:sass' 'npm run watch:html' 'npm run build:images' 'npm run watch:images' 'npm run serve'",

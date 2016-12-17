@@ -8,7 +8,7 @@ var document = require('global/document'),
 
 
 window.register = function (form) {
-    jsonp('//crushingpennies.us12.list-manage.com/subscribe/post-json?u=1ad2313c80a66d742a9a602c0&id=ca39584e05&' + serialize(form), {
+    jsonp('//mindovermatter4me.us2.list-manage.com/subscribe/post-json?u=da994cb2585ad57233c811577&id=7335a5881a&' + serialize(form), {
         param: 'c'
     }, function (err, response) {
         var node = document.getElementById('form-msg')
